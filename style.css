@@ -1,0 +1,63 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header-icon {
+    font-size: 2.5rem;
+}
+.menu-item {
+    color: #000;
+}
+.menu-item:hover {
+    background-color: #F3F4F5;
+    color: #0099ff
+}
+.section1-content {
+    background-image: url(images/rainypic1.jpg);
+    height: 30vw;
+}
+.section1-title {
+    font-size: 2.5rem;
+}
+.card-icon {
+    font-size: 4rem;
+}
+.card {
+    border: none;
+}
+.section2-card-title {
+    font-size: 1.8rem;
+}
+.section3-content {
+    background-image: url(images/sky.jpg);
+    height: 19vw;
+    background-size: cover;
+    filter:grayscale(0.6);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.section3-content:hover {
+    filter: grayscale(0);
+}
+.card-img {
+    transition: 0.3s;
+}
+.card-img:hover {
+    transform: scale(1.1);
+}
+.section4 {
+    margin-top: 5rem;
+}
+.section5 {
+    margin-top: 8rem;
+}
+.tab-item:hover {
+    background-color: #F3F4F5;
+}
+.section6 {
+    margin-top: 7rem;
+}
+form {
+    width: 20rem;
+}
